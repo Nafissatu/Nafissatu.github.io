@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset ="utf-8">
+  <title>Questionnaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Questionnaire</h1>
+    <br>
+    <br>
+  <form action="">
+    <h2> Informations Personnelles </h2>
+    <table>
+    <tr>
+      <td align="left">Nom de Famille:</td>
+      <td align="left"><input type="text" name="Nom de Famille" placeholder="Nom de Famille"></td>
+    </tr>
+    <tr>
+      <td align="left">Prenom:</td>
+      <td align="left"><input type="text" name="Prenom" placeholder="Prenom"></td>
+    </tr>
+
+
+    <tr>
+      <td align="left">Profession:</td>
+      <td align="left"><input type="text" name="Profession" placeholder="Profession"></td>
+    </tr>
+  </table>
+  <h2> Recommenderiez vous ce site a un de vos proches? </h2
+  <table>
+  <tr>
+        <td align="left"><input type="radio" name="Oui"> Oui</td>
+        <td align="left"><input type="radio" name="Non" > Non</td>
+        <td align="left" > <input type="radio" name="Peut-etre" > Peut-etre</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr> <h2> Selectionnez le mot qui definit le mieux ce site </h2></tr>
+    <td>
+      <select name ="">
+        <option value ="none"></option>
+       <option value ="Fiable">Fiable</option>
+        <option value ="efficace">Efficace</option>
+        <option value ="coherent">Coherent</option>
+        <option value ="Securise">Securise</option>
+        <option value ="Fonctionel">Fonctionel</option>
+      </select>
+    </td>
+
+  </table>
+  <table>
+    <tr> <h2>Selectionnez tout ce qui s'applique:</h2></tr>
+    <tr>
+      <input type="checkbox" name ="Applicable" value ="structure">Ce questionnaire est bien stucture <br></input>
+      <input type="checkbox" name ="Applicable" value ="attractive">La page est attractive<br></input>
+      <input type="checkbox" name ="Applicable" value ="pertinentes">Les questions posees sont pertinentes<br></input>
+      <input type="checkbox" name ="Applicable" value ="toutes les reponses">Toutes les reponses<br></input>
+      <input type="checkbox" name ="Applicable" value ="aucune">Aucune reponse<br></input>
+
+
+
+    </tr>
+
+  </table>
+
+  <table>
+  <tr>
+    <h2> Vos Commentaires sont importants pour nous </h2>
+  </tr>
+    <tr>
+    <textarea rows ="15" cols="85" name ="message" placeholder ="Entrer votre commentaire ici"> </textarea>
+    <br>
+    <button type="Submit" name ="submit">Enregistrez</button>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <button id="submitButton" type="button" class="block">
+		Soumettre le Questionnaire
+	</button>
+  </form>
+
+
+</body>
+<footer>
+  <p id="signature">Site created by Nafissatou Soumare</p>
+</footer>
+</html>
